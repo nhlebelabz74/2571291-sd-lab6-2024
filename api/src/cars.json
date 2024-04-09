@@ -1,0 +1,20 @@
+[
+    {
+      "make": "Rolls Royce",
+      "model": "Spectre",
+      "year": "2022",
+      "price": "15000000"
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Urus",
+      "year": "2020",
+      "price": "8000000"
+    },
+    {
+        "make": "Benley",
+        "model": "Bentayga",
+        "year": "2021",
+        "price": "10000000"
+    }
+  ]
