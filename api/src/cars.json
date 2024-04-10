@@ -1,20 +1,32 @@
 [
-    {
-      "make": "Rolls Royce",
-      "model": "Spectre",
-      "year": "2022",
-      "price": "15000000"
-    },
-    {
-      "make": "Lamborghini",
-      "model": "Urus",
-      "year": "2020",
-      "price": "8000000"
-    },
-    {
-        "make": "Benley",
-        "model": "Bentayga",
-        "year": "2021",
-        "price": "10000000"
-    }
-  ]
+  {
+    "make": "Rolls Royce",
+    "model": "Spectre",
+    "year": "2022",
+    "price": "15000000"
+  },
+  {
+    "make": "Lamborghini Urus",
+    "model": "Performante",
+    "year": "2020",
+    "price": "8000000"
+  },
+  {
+    "make": "Benley",
+    "model": "Bentayga",
+    "year": "2021",
+    "price": "10000000"
+  },
+  {
+    "make": "Benley Continental",
+    "model": "GT S",
+    "year": "2021",
+    "price": "12000000"
+  },
+  {
+    "make": "BMW",
+    "model": "M4 Competition",
+    "year": "2021",
+    "price": "5000000"
+  }
+]
