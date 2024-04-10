@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -24,6 +27,7 @@ header h1 {
 
 main {
   padding: 20px 0;
+  flex: 1;
 }
 
 .grid-container {
@@ -69,15 +73,13 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  outline: none;
-  /* Remove default focus outline */
+  outline: none; /* Remove default focus outline */
 }
 
 input[type="text"]:focus,
 input[type="number"]:focus,
 input[type="email"]:focus {
-  border-color: #007bff;
-  /* Change border color on focus */
+  border-color: #007bff; /* Change border color on focus */
 }
 
 input[type="submit"] {
@@ -91,20 +93,16 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #0056b3;
-  /* Darker shade on hover */
+  background-color: #0056b3; /* Darker shade on hover */
 }
 
-#footer {
+footer {
   background-color: #333;
   color: #fff;
-  text-align: center;
   padding: 10px 0;
-  z-index: 2;
-  /* stick at bottom */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* add car modal */
